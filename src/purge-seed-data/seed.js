@@ -17,7 +17,7 @@ const createData = async () => {
     const orders = [];
     const records = [];
     //users FAKE USERS
-    for (let i = 0; i < 20; i++) {
+    for (let i = 0; i < 22; i++) {
       const user = {
         firstname: chance.first(),
         lastname: chance.last(),
